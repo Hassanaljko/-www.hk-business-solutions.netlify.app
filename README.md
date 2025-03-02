@@ -1,49 +1,53 @@
 # -www.hk-business-solutions.netlify.app
 git clone <https://github.com/><<h1>Inline HTML heading</h1>>/hk-business-solutions.git
 <!DOCTYPE html>
-{
-    "MD003": { "style": "atx_closed" },
-    "MD007": { "indent": 4 },
-    "no-hard-tabs": false
-}
-<<h1>Inline HTML heading</h1>>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <Markdown heading>HK Business Solutions</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/framer-motion/dist/framer-motion.js"></script>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK Business Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" preload>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="min-h-screen bg-gradient-to-b from-green-100 to-green-300 flex flex-col items-center justify-center p-6">
-    <h1 class="text-4xl font-bold text-center mb-6 text-green-800">HK Business Solutions</h1>
-    <div class="w-full max-w-md shadow-lg rounded-2xl bg-white">
-      <div class="p-6 text-center">
-        <p class="text-lg mb-4 text-green-700">
-          J’accompagne les PME, TPE et indépendants pour développer leur clientèle et améliorer leur relation client.
-        </p>
-        <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg">En savoir plus</a>
-      </div>
-    </div>
-    <div class="mt-10 text-center">
-      <h2 class="text-2xl font-semibold text-green-800 mb-4">Services</h2>
-      <ul class="text-green-700 list-disc list-inside mb-10">
-        <li>Prospection commerciale</li>
-        <li>Gestion de la relation client</li>
-        <li>Assistance administrative</li>
-        <li>Suivi de la satisfaction client</li>
-      </ul>
-      <h2 class="text-2xl font-semibold text-green-800 mb-4">Témoignages</h2>
-      <blockquote class="italic text-green-700 mb-10">"Un service clé en main qui nous a permis de gagner de nouveaux clients sans effort."</blockquote>
-      <blockquote class="italic text-green-700 mb-10">"HK Business Solutions nous accompagne efficacement dans notre développement commercial."</blockquote>
-      <h2 class="text-2xl font-semibold text-green-800 mb-4">Nous retrouver</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509243!2d144.9537363153163!3d-37.816279179751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772eb1f93ba64a!2sMelbourne%20CBD!5e0!3m2!1sen!2sau!4v1614283933295!5m2!1sen!2sau"
+<header>
+    <!-- HK signifie Hassanal Koné -->
+    HK Business Solutions – Prospection & Relation Client
+    <p>"Accompagner les TPE, PME et indépendants à se lancer est notre raison de vivre"</p>
+</header>
+<section>
+    <h1>Développez votre clientèle sans alourdir votre charge de travail</h1>
+    <p>Nous accompagnons les PME, TPE et indépendants dans leur prospection commerciale et gestion de la relation client.</p>
+    <button id="contactButton">Contactez-nous</button>
+</section>
+<section>
+    <h2>À propos</h2>
+    <p>HK Business Solutions est née de la volonté d'aider les entreprises à maximiser leur potentiel commercial grâce à des solutions de prospection externalisée adaptées à leurs besoins.</p>
+</section>
+<section>
+ <h2>Localisation</h2>
+    <iframe
         width="100%"
         height="300"
-        allowfullscreen=""
-        loading="lazy"
-        class="rounded-2xl shadow-lg"
-      ></iframe>
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+        src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Le+Mans,France">
+    </iframe>
+</section>
+<section>
+    <h2>Contactez-nous</h2>
+    <form id="contactForm">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+<footer>
       <div class="mt-6">
         <p class="text-lg text-green-700 mb-2">Suivez-nous sur les réseaux sociaux :</p>
         <div class="flex justify-center gap-4">
