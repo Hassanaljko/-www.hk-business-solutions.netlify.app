@@ -1,1 +1,213 @@
 # -www.hk-business-solutions.netlify.app
+git clone https://github.com/<votre-nom-utilisateur>/hk-business-solutions.git
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HK Business Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.js"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-b from-green-100 to-green-300 flex flex-col items-center justify-center p-6">
+    <h1 class="text-4xl font-bold text-center mb-6 text-green-800">HK Business Solutions</h1>
+    <div class="w-full max-w-md shadow-lg rounded-2xl bg-white">
+      <div class="p-6 text-center">
+        <p class="text-lg mb-4 text-green-700">
+          J’accompagne les PME, TPE et indépendants pour développer leur clientèle et améliorer leur relation client.
+        </p>
+        <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg">En savoir plus</a>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">Services</h2>
+      <ul class="text-green-700 list-disc list-inside mb-10">
+        <li>Prospection commerciale</li>
+        <li>Gestion de la relation client</li>
+        <li>Assistance administrative</li>
+        <li>Suivi de la satisfaction client</li>
+      </ul>
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">Témoignages</h2>
+      <blockquote class="italic text-green-700 mb-10">"Un service clé en main qui nous a permis de gagner de nouveaux clients sans effort."</blockquote>
+      <blockquote class="italic text-green-700 mb-10">"HK Business Solutions nous accompagne efficacement dans notre développement commercial."</blockquote>
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">Nous retrouver</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509243!2d144.9537363153163!3d-37.816279179751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772eb1f93ba64a!2sMelbourne%20CBD!5e0!3m2!1sen!2sau!4v1614283933295!5m2!1sen!2sau"
+        width="100%"
+        height="300"
+        allowfullscreen=""
+        loading="lazy"
+        class="rounded-2xl shadow-lg"
+      ></iframe>
+      <div class="mt-6">
+        <p class="text-lg text-green-700 mb-2">Suivez-nous sur les réseaux sociaux :</p>
+        <div class="flex justify-center gap-4">
+          <a href="https://www.facebook.com" target="_blank" class="text-green-700 hover:text-green-900">Facebook</a>
+          <a href="https://www.linkedin.com" target="_blank" class="text-green-700 hover:text-green-900">LinkedIn</a>
+          <a href="https://www.instagram.com" target="_blank" class="text-green-700 hover:text-green-900">Instagram</a>
+        </div>
+      </div>
+      <div class="mt-10">
+        <h2 class="text-2xl font-semibold text-green-800 mb-4">Contactez-nous</h2>
+        <form class="flex flex-col gap-4">
+          <input type="text" placeholder="Nom" class="p-2 rounded-lg border border-green-300" />
+          <input type="email" placeholder="Email" class="p-2 rounded-lg border border-green-300" />
+          <textarea placeholder="Message" class="p-2 rounded-lg border border-green-300" rows="4"></textarea>
+          <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-gradient-to-b {
+    background: linear-gradient(to bottom, #daf7a6, #c8e6c9);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-4xl {
+    font-size: 2.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-green-800 {
+    color: #2e7d32;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-green-700 {
+    color: #388e3c;
+  }
+  
+  .bg-green-600 {
+    background-color: #43a047;
+  }
+  
+  .hover\:bg-green-700:hover {
+    background-color: #388e3c;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .list-disc {
+    list-style-type: disc;
+  }
+  
+  .list-inside {
+    list-style-position: inside;
+  }
+  
+  .mb-10 {
+    margin-bottom: 2.5rem;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .border-green-300 {
+    border-color: #81c784;
+  }
+  git add .
+git commit -m "Initial commit"
+git push origin main
